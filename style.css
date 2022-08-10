@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Sen:wght@400;700;800&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sen", sans-serif;
+  background-color: #2a0944;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.container {
+  width: 520px;
+  height: auto;
+  min-height: 100px;
+  background-color: #eee;
+  margin: 100px auto;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+}
+
+.container h2 {
+  font-size: 35px;
+  color: #3fa796;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.title {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+input[type="text"] {
+  width: 140px;
+  outline: none;
+  border: 1px solid #fec260;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  font-family: "Sen", sans-serif;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #1073d0;
+  background-color: #ffffff;
+  outline: none;
+}
+
+input[type="button"] {
+  width: 140px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #a10035;
+  color: #ffffff;
+  padding: 10px 10px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Sen", sans-serif;
+}
+
+input[type="button"]:hover {
+  background-color: #003669;
+}
+
+#age {
+  display: block;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+}
