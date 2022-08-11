@@ -26,5 +26,4 @@ function age() {
   let currentAge = document.getElementById("age");
   currentAge.innerHTML =
     "Your age is " + y + " Years " + m + " Months " + d + " Days";
-  console.log("Your age is " + y + " Years " + m + " Months " + d + " Days");
 }
